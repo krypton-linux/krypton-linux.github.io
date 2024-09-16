@@ -1,5 +1,3 @@
-# krypton.github.io
+# krypton公式ウェブサイト
 
-まだない
-
-not yet
+現在制作中
