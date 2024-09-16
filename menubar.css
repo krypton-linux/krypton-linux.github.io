@@ -1,0 +1,47 @@
+.gnav {
+  width: 100%;
+  height: 50px;
+  background: #333;
+  box-sizing: content-box;
+}
+.gnav__inner {
+  position: relative;
+  box-sizing: content-box;
+}
+.gnav__list {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  box-sizing: content-box;
+  list-style: none;
+  justify-content: center;
+}
+.menu__bar {
+  content: '';
+  bottom: 0px;
+  left: 0;
+  position: absolute;
+  width: 20%;
+  height: 8px;
+  background: #ccc;
+  -webkit-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+  pointer-events: none;
+}
+.gnav__list__item {
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  box-sizing: content-box;
+}
+.gnav__list__item a {
+  box-sizing: content-box;
+  display: block;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
