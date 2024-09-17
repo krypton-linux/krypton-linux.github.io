@@ -1,7 +1,9 @@
 .gnav {
-  width: 100%;
+  width: 60%;
   height: 50px;
   box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 .gnav__inner {
   position: relative;
