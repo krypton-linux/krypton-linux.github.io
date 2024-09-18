@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentItem = document.querySelector('.current-item');
     let gnavListItems = document.querySelectorAll(".gnav__list__item");
     let menuBar = document.querySelector('.menu__bar');
+    menuBar.style.width = currentItem.offsetWidth + "px";
+    menuBar.style.left = currentItem.offsetLeft + "px";
 
     gnavListItems.forEach(function(item) {
     item.addEventListener("mouseover", function() {

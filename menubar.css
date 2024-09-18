@@ -24,6 +24,7 @@
   position: absolute;
   width: 20%;
   height: 8px;
+  background: #3498DB;
   -webkit-transition: .4s ease;
   -o-transition: .4s ease;
   transition: .4s ease;
