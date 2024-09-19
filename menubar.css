@@ -4,6 +4,8 @@
   box-sizing: content-box;
   margin-left: auto;
   margin-right: auto;
+  background: D0D3D4;
+  border-radius: 10px;
 }
 .gnav__inner {
   position: relative;
