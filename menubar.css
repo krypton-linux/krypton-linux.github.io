@@ -7,6 +7,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+.gnav__logo {
+  width: 25%;
+  height: 60px;
+  text-align: center;
+  box-sizing: content-box
+}
 .gnav__inner {
   position: relative;
   box-sizing: content-box;
